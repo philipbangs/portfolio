@@ -76,9 +76,10 @@ header nav ul li a {
 .socials {
   position: absolute;
   top: 0;
-  margin: 170px 20px;
+  margin: 140px 20px;
   right: 0%;
   width: 40px;
+  
   padding: 10px 0px 0px 10px;
   background-color: teal;
   border-radius: 10px;
