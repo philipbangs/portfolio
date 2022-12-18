@@ -7,13 +7,13 @@ const projectFourBtn = document.querySelector(".p4btn");
 
 projectOneBtn.addEventListener("click", () => {
   alert(
-    "This Recipe app is under developement, please check in some other time"
+    "This Meal app is under developement, please check in some other time"
   );
 });
 
 projectTwoBtn.addEventListener("click", () => {
   alert(
-    "This Recipe app is under developement, please check in some other time"
+    "This Portfolio app is under developement, please check in some other time"
   );
 });
 
@@ -25,6 +25,6 @@ projectThreeBtn.addEventListener("click", () => {
 
 projectFourBtn.addEventListener("click", () => {
   alert(
-    "This Recipe app is under developement, please check in some other time"
+    "This Portfolio app is under developement, please check in some other time"
   );
 });
