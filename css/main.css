@@ -261,3 +261,97 @@ footer p {
   font-size: 10px;
   color: #363636;
 }
+/* Media Query Style for Desktop Screen */
+@media (min-width: 900px) {
+  body {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  /* Header Styles */
+  header {
+    height: 60px;
+    padding: 15px 100px;
+  }
+  /* Hero Styles */
+  .hero {
+    padding: 200px 100px;
+  }
+
+  .hero h1 {
+    font-size: 16px;
+  }
+  .hero h2 {
+    font-size: 45px;
+  }
+  .hero h3 {
+    font-size: 18px;
+  }
+  .socials {
+    margin: 200px 100px;
+  }
+  /* Protfolio Styles */
+  .portfolio {
+    padding: 80px 100px;
+  }
+  .project-card {
+    padding: 15px;
+    margin-top: 40px;
+    display: flex;
+  }
+  .project-image {
+    width: 50%;
+
+    margin-right: 30px;
+  }
+  .project-content {
+    width: 50%;
+    margin-top: 0;
+  }
+  .project-content p {
+    margin-top: 20px;
+  }
+  .technologies {
+    margin-top: 20px;
+  }
+  .view-source-btn {
+    padding: 8px 30px;
+  }
+  /* About Styles */
+  .about {
+    padding: 80px 100px;
+    display: flex;
+  }
+  .about-content {
+    width: 50%;
+    margin-right: 30px;
+  }
+  .about-image {
+    width: 40%;
+    height: 250px;
+  }
+  /* .about-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  } */
+  .about-btn {
+    padding: 8px 30px;
+  }
+  /* Start Of Contact */
+  .contact {
+    display: flex;
+    padding: 80px 100px;
+  }
+  .contact-details {
+    width: 40%;
+    margin-right: 30px;
+  }
+  .contact form {
+    width: 60%;
+  }
+  .contact-btn {
+    padding: 8px 30px;
+  }
+} 
