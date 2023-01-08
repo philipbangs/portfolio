@@ -1,12 +1,11 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 html {
- scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -30,7 +29,7 @@ header {
 
 header .logo {
   font-size: 15px;
-  color: #363636;
+  color: teal;
   text-decoration: none;
   font-weight: bold;
 }
@@ -56,13 +55,13 @@ header nav ul li a {
   padding: 100px 20px;
 
   background-color: #0d0d0d;
+
   color: #f1f1f1;
   
+
   /* position: relative; */
-  
 }
-
-
+ 
 .hero-left-content h1 {
   font-size: 12px;
 }
@@ -74,17 +73,15 @@ header nav ul li a {
 
 .hero-left-content p {
   padding: 4px 35px 0 0;
+ 
+  
 }
-
-
-
 .socials {
   position: absolute;
   top: 0;
   margin: 140px 20px;
   right: 0%;
   width: 40px;
-  
   padding: 10px 0px 0px 10px;
   background-color: teal;
   border-radius: 10px;
@@ -94,22 +91,19 @@ header nav ul li a {
 .socials ul li {
   list-style: none;
   margin-bottom: 8px;
-
 }
 
-.socials ul li:last-child{
+.socials ul li:last-child {
   margin-bottom: 0px;
 }
 .socials img {
   width: 20px;
 }
-
 /* Portfolio Style */
 .portofolio {
   /* width: 100px; */
   padding: 50px 20px;
 }
-
 .project-card {
   background: #fff;
   width: 100%;
@@ -183,11 +177,10 @@ header nav ul li a {
   margin-top: 20px;
 }
 
-.about-image img{
+.about-image img {
   width: 100%;
   height: 120%;
   border-radius: 12px;
-  
 }
 
 .about-btn {
@@ -198,6 +191,11 @@ header nav ul li a {
   color: #fff;
   border-radius: 6px;
   cursor: pointer;
+}
+
+.cts {
+  text-decoration: none;
+  color: white;
 }
 
 /* Contact Style */
@@ -360,4 +358,4 @@ footer p {
   .contact-btn {
     padding: 8px 30px;
   }
-} 
+}
